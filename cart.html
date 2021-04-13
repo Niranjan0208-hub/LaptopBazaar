@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart | Laptop Bazaar</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--Latest compiled and minified JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: #ffce2b;">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span> </a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="settings.html"><span class="glyphicon glyphicon-cog"></span> Settings </a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> log-in </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid content table-responsive" >
+        <div class="row decor_bg">
+            <div class="col-md-6 col-md-offset-3">
+
+                <form>
+                    <div class="form-group">
+                        <h1>Shipping Details</h1>
+                        <input class="form-control" placeholder="Name" type="text" name="name" required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder="Address" type="text" name="Address"
+                            required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder=" Land mark" type="text"
+                            name=" Land mark" required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder="Mobile Number" type="number" name="phone" required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder="State" type="text" name="State" required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder="City" type="text" name="city" required="true">
+
+                        <br>
+
+                        <input class="form-control" placeholder="Pin code" type="number" name="Pin code"
+                            required="true">
+
+                        <br>
+                        <div id="address"> <input type="checkbox" id="save address" value=""/> Save Address for next time shopping </div>
+
+                    </div>
+                    <br>
+                    <br>
+                    <table class="table table-hover table-striped">
+                        <tbody>
+                            <tr>
+                                <th>Item Number</th>
+                                <th>Item Name</th>
+                                <th>Price</th>
+                                <th></th>
+                            </tr>
+                                <th></th>
+                                <th>Total</th>
+                                <th>Rs 0</th>
+                                <th><button class="btn btn-success" type="submit"><a href="paymentpage.html" >Proceed to Payment</a></button></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+              
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer>
+        <div class="container">
+            <center>
+                <p>Copyright © Lifestyle Store. All Rights
+                    Reserved | Contact Us: +91 90000 00000”. </p>
+            </center>
+        </div>
+    </footer>
+</body>
+
+</html>
